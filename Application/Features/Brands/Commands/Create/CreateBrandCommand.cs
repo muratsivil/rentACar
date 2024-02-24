@@ -16,7 +16,7 @@ public class CreateBrandCommand : IRequest<CreatedBrandResponse> // CreateBrandR
         {
             CreatedBrandResponse createdBrandResponse = new CreatedBrandResponse();
             createdBrandResponse.Name = request.Name;
-            createdBrandResponse.Id = new Guid();
+            createdBrandResponse.Id = Guid.NewGuid();
             return null;
         }
     }

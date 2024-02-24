@@ -1,0 +1,11 @@
+/Users/muratsivil/Desktop/Self Study/Udemy/nArchitectureDemo/src/rentACar/Infrastructure/bin/Debug/net8.0/Infrastructure.deps.json
+/Users/muratsivil/Desktop/Self Study/Udemy/nArchitectureDemo/src/rentACar/Infrastructure/bin/Debug/net8.0/Infrastructure.dll
+/Users/muratsivil/Desktop/Self Study/Udemy/nArchitectureDemo/src/rentACar/Infrastructure/bin/Debug/net8.0/Infrastructure.pdb
+/Users/muratsivil/Desktop/Self Study/Udemy/nArchitectureDemo/src/rentACar/Infrastructure/obj/Debug/net8.0/Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+/Users/muratsivil/Desktop/Self Study/Udemy/nArchitectureDemo/src/rentACar/Infrastructure/obj/Debug/net8.0/Infrastructure.AssemblyInfoInputs.cache
+/Users/muratsivil/Desktop/Self Study/Udemy/nArchitectureDemo/src/rentACar/Infrastructure/obj/Debug/net8.0/Infrastructure.AssemblyInfo.cs
+/Users/muratsivil/Desktop/Self Study/Udemy/nArchitectureDemo/src/rentACar/Infrastructure/obj/Debug/net8.0/Infrastructure.csproj.CoreCompileInputs.cache
+/Users/muratsivil/Desktop/Self Study/Udemy/nArchitectureDemo/src/rentACar/Infrastructure/obj/Debug/net8.0/Infrastructure.dll
+/Users/muratsivil/Desktop/Self Study/Udemy/nArchitectureDemo/src/rentACar/Infrastructure/obj/Debug/net8.0/refint/Infrastructure.dll
+/Users/muratsivil/Desktop/Self Study/Udemy/nArchitectureDemo/src/rentACar/Infrastructure/obj/Debug/net8.0/Infrastructure.pdb
+/Users/muratsivil/Desktop/Self Study/Udemy/nArchitectureDemo/src/rentACar/Infrastructure/obj/Debug/net8.0/ref/Infrastructure.dll

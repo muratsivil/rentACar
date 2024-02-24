@@ -9,3 +9,4 @@
 /Users/muratsivil/Desktop/Self Study/Udemy/nArchitectureDemo/src/rentACar/Persistence/obj/Debug/net8.0/refint/Persistence.dll
 /Users/muratsivil/Desktop/Self Study/Udemy/nArchitectureDemo/src/rentACar/Persistence/obj/Debug/net8.0/Persistence.pdb
 /Users/muratsivil/Desktop/Self Study/Udemy/nArchitectureDemo/src/rentACar/Persistence/obj/Debug/net8.0/ref/Persistence.dll
+/Users/muratsivil/Desktop/Self Study/Udemy/nArchitectureDemo/src/rentACar/Persistence/obj/Debug/net8.0/Persistence.sourcelink.json

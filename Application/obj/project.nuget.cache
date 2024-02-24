@@ -1,8 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "TNl1XLYfheTL3R9sz3k5KMjc0M+n7/bpm8X1c2AVK+sqgW+PPX6IKGIu2AVgBjhG7ttuZJgzE6WOSRp3R9d7rA==",
+  "dgSpecHash": "WtntxkFhoDcl3bAZjC1vhR11aV69Ks18tKozRbwSbCaDlmJwuuegRnowq1FWdrEF2+LImvf04kqWtZm52+X/5A==",
   "success": true,
   "projectFilePath": "/Users/muratsivil/Desktop/Self Study/Udemy/nArchitectureDemo/src/rentACar/Application/Application.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "/Users/muratsivil/.nuget/packages/mediatr/12.2.0/mediatr.12.2.0.nupkg.sha512",
+    "/Users/muratsivil/.nuget/packages/mediatr.contracts/2.0.1/mediatr.contracts.2.0.1.nupkg.sha512",
+    "/Users/muratsivil/.nuget/packages/microsoft.extensions.dependencyinjection.abstractions/8.0.0/microsoft.extensions.dependencyinjection.abstractions.8.0.0.nupkg.sha512"
+  ],
   "logs": []
 }

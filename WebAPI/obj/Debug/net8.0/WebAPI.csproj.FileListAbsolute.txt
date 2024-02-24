@@ -31,3 +31,8 @@
 /Users/muratsivil/Desktop/Self Study/Udemy/nArchitectureDemo/src/rentACar/WebAPI/obj/Debug/net8.0/WebAPI.pdb
 /Users/muratsivil/Desktop/Self Study/Udemy/nArchitectureDemo/src/rentACar/WebAPI/obj/Debug/net8.0/WebAPI.genruntimeconfig.cache
 /Users/muratsivil/Desktop/Self Study/Udemy/nArchitectureDemo/src/rentACar/WebAPI/obj/Debug/net8.0/ref/WebAPI.dll
+/Users/muratsivil/Desktop/Self Study/Udemy/nArchitectureDemo/src/rentACar/WebAPI/bin/Debug/net8.0/MediatR.dll
+/Users/muratsivil/Desktop/Self Study/Udemy/nArchitectureDemo/src/rentACar/WebAPI/bin/Debug/net8.0/MediatR.Contracts.dll
+/Users/muratsivil/Desktop/Self Study/Udemy/nArchitectureDemo/src/rentACar/WebAPI/bin/Debug/net8.0/Application.dll
+/Users/muratsivil/Desktop/Self Study/Udemy/nArchitectureDemo/src/rentACar/WebAPI/bin/Debug/net8.0/Application.pdb
+/Users/muratsivil/Desktop/Self Study/Udemy/nArchitectureDemo/src/rentACar/WebAPI/obj/Debug/net8.0/WebAPI.sourcelink.json

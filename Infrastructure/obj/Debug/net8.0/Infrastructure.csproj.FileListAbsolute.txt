@@ -9,3 +9,4 @@
 /Users/muratsivil/Desktop/Self Study/Udemy/nArchitectureDemo/src/rentACar/Infrastructure/obj/Debug/net8.0/refint/Infrastructure.dll
 /Users/muratsivil/Desktop/Self Study/Udemy/nArchitectureDemo/src/rentACar/Infrastructure/obj/Debug/net8.0/Infrastructure.pdb
 /Users/muratsivil/Desktop/Self Study/Udemy/nArchitectureDemo/src/rentACar/Infrastructure/obj/Debug/net8.0/ref/Infrastructure.dll
+/Users/muratsivil/Desktop/Self Study/Udemy/nArchitectureDemo/src/rentACar/Infrastructure/obj/Debug/net8.0/Infrastructure.sourcelink.json

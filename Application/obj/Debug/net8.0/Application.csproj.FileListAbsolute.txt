@@ -9,3 +9,5 @@
 /Users/muratsivil/Desktop/Self Study/Udemy/nArchitectureDemo/src/rentACar/Application/obj/Debug/net8.0/refint/Application.dll
 /Users/muratsivil/Desktop/Self Study/Udemy/nArchitectureDemo/src/rentACar/Application/obj/Debug/net8.0/Application.pdb
 /Users/muratsivil/Desktop/Self Study/Udemy/nArchitectureDemo/src/rentACar/Application/obj/Debug/net8.0/ref/Application.dll
+/Users/muratsivil/Desktop/Self Study/Udemy/nArchitectureDemo/src/rentACar/Application/obj/Debug/net8.0/Application.csproj.AssemblyReference.cache
+/Users/muratsivil/Desktop/Self Study/Udemy/nArchitectureDemo/src/rentACar/Application/obj/Debug/net8.0/Application.sourcelink.json

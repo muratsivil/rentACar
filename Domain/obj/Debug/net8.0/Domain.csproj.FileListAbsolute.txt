@@ -9,3 +9,8 @@
 /Users/muratsivil/Desktop/Self Study/Udemy/nArchitectureDemo/src/rentACar/Domain/obj/Debug/net8.0/refint/Domain.dll
 /Users/muratsivil/Desktop/Self Study/Udemy/nArchitectureDemo/src/rentACar/Domain/obj/Debug/net8.0/Domain.pdb
 /Users/muratsivil/Desktop/Self Study/Udemy/nArchitectureDemo/src/rentACar/Domain/obj/Debug/net8.0/ref/Domain.dll
+/Users/muratsivil/Desktop/Self Study/Udemy/nArchitectureDemo/src/rentACar/Domain/bin/Debug/net8.0/Core.Persistence.dll
+/Users/muratsivil/Desktop/Self Study/Udemy/nArchitectureDemo/src/rentACar/Domain/bin/Debug/net8.0/Core.Persistence.pdb
+/Users/muratsivil/Desktop/Self Study/Udemy/nArchitectureDemo/src/rentACar/Domain/obj/Debug/net8.0/Domain.csproj.AssemblyReference.cache
+/Users/muratsivil/Desktop/Self Study/Udemy/nArchitectureDemo/src/rentACar/Domain/obj/Debug/net8.0/Domain.sourcelink.json
+/Users/muratsivil/Desktop/Self Study/Udemy/nArchitectureDemo/src/rentACar/Domain/obj/Debug/net8.0/Domain.csproj.CopyComplete

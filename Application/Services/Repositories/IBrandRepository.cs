@@ -3,7 +3,7 @@ using Domain.Entites;
 
 namespace Application.Services.Repositories;
 
-public interface IBrandRepository : IAsyncRepository<Brand, Guid>, IRepository<Brand, Guid>
+public interface IBrandRepository : IAsyncRepository<Brand, Guid> //, IRepository<Brand, Guid>
 {
 
 }

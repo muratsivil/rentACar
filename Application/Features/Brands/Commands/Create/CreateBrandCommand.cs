@@ -1,4 +1,6 @@
-﻿using MediatR;
+﻿using Application.Services.Repositories;
+using Domain.Entites;
+using MediatR;
 
 namespace Application.Features.Brands.Commands.Create;
 
@@ -12,12 +14,27 @@ public class CreateBrandCommand : IRequest<CreatedBrandResponse> // CreateBrandR
     */
     public class CreateBrandCommandHandler : IRequestHandler<CreateBrandCommand, CreatedBrandResponse>
     {
-        public Task<CreatedBrandResponse> Handle(CreateBrandCommand request, CancellationToken cancellationToken)
+        private readonly IBrandRepository _brandRepository;
+
+        public CreateBrandCommandHandler(IBrandRepository brandRepository)
         {
-            CreatedBrandResponse createdBrandResponse = new CreatedBrandResponse();
-            createdBrandResponse.Name = request.Name;
-            createdBrandResponse.Id = Guid.NewGuid();
-            return null;
+            _brandRepository = brandRepository;
+        }
+
+        public async Task<CreatedBrandResponse> Handle(CreateBrandCommand request, CancellationToken cancellationToken)
+        {
+            Brand brand = new()
+            {
+                Name = request.Name,
+                Id = Guid.NewGuid()
+            };
+            var result = await _brandRepository.AddAsync(brand);
+            CreatedBrandResponse createdBrandResponse = new()
+            {
+                Name = result.Name,
+                Id = result.Id
+            };
+            return createdBrandResponse;
         }
     }
 }

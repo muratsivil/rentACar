@@ -6,6 +6,7 @@ namespace Application;
 public static class ApplicationServiceRegistration
 {
     public static IServiceCollection AddApplicaitonServices(this IServiceCollection services){
+        services.AddAutoMapper(Assembly.GetExecutingAssembly());
         services.AddMediatR(configuration =>
         {
             configuration.RegisterServicesFromAssembly(Assembly.GetExecutingAssembly());

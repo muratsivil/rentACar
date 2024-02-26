@@ -5,7 +5,6 @@ namespace Application;
 
 public static class ApplicationServiceRegistration
 {
-    
     public static IServiceCollection AddApplicaitonServices(this IServiceCollection services){
         services.AddMediatR(configuration =>
         {

@@ -1,2 +1,2 @@
 DDD (Domain Driven Design)
-Veritabanı nesnelerimizi domain nesnelerimizi ilişkilendirdiğimiz alan
+The area where we associate our database objects with domain objects.

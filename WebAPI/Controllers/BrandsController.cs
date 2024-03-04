@@ -21,4 +21,10 @@ public class BrandsController : BaseController
         GetListResponse<GetListBrandListItemDto> response = await Mediator.Send(new GetListBrandQuery { PageRequest = pageRequest });
         return Ok(response);
     }
+
+    [HttpGet("{id}")]
+    public async Task<IActionResult> GetById(Guid id){
+        GetByIdBrandResponse response = await Mediator.Send(new GetByIdBrandQuery { Id = id });
+        return Ok(response);
+    }
 }

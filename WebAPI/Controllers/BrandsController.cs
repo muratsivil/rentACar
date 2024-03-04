@@ -1,4 +1,5 @@
 ﻿using Application.Features.Brands.Commands.Create;
+using Application.Features.Brands.Commands.Update;
 using Application.Features.Brands.Queries;
 using Core.Application.Requests;
 using Core.Application.Responses;
@@ -25,6 +26,12 @@ public class BrandsController : BaseController
     [HttpGet("{id}")]
     public async Task<IActionResult> GetById(Guid id){
         GetByIdBrandResponse response = await Mediator.Send(new GetByIdBrandQuery { Id = id });
+        return Ok(response);
+    }
+
+    [HttpPut]
+    public async Task<IActionResult> Update([FromBody] UpdateBrandCommand updateBrandCommand){
+        UpdatedBrandResponse response = await Mediator.Send(updateBrandCommand);
         return Ok(response);
     }
 }

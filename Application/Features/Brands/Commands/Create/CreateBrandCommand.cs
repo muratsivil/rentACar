@@ -28,7 +28,7 @@ public class CreateBrandCommand : IRequest<CreatedBrandResponse> // CreateBrandR
         {
             Brand brand = _mapper.Map<Brand>(request);
             brand.Id = Guid.NewGuid();
-
+            brand.Status = "Initial";
             await _brandRepository.AddAsync(brand);
 
             CreatedBrandResponse createdBrandResponse = _mapper.Map<CreatedBrandResponse>(brand);

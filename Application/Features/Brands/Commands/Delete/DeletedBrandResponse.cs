@@ -1,10 +1,10 @@
-﻿namespace Application.Features.Brands.Commands.Create;
+﻿namespace Application.Features.Brands.Commands.Delete;
 
-public class CreatedBrandResponse
+public class DeletedBrandResponse
 {
-    // Objects that I need to response
     public Guid Id { get; set; }
     public string Name { get; set; }
     public string Status { get; set; }
     public DateTime CreatedDate { get; set; }
+    public DateTime DeletedDate { get; set; }
 }

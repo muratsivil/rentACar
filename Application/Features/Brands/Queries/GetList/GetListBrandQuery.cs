@@ -27,6 +27,7 @@ public class GetListBrandQuery : IRequest<GetListResponse<GetListBrandListItemDt
             Paginate<Brand> brand = await _brandRepository.GetListAsync(
                 index: request.PageRequest.PageIndex,
                 size: request.PageRequest.PageSize,
+                withDeleted: true,
                 cancellationToken: cancellationToken
             );
 

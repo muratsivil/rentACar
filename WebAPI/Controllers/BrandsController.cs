@@ -1,4 +1,6 @@
-﻿using Application.Features.Brands.Commands.Create;
+﻿using Application;
+using Application.Features.Brands.Commands.Create;
+using Application.Features.Brands.Commands.Delete;
 using Application.Features.Brands.Commands.Update;
 using Application.Features.Brands.Queries;
 using Core.Application.Requests;
@@ -24,7 +26,7 @@ public class BrandsController : BaseController
     }
 
     [HttpGet("{id}")]
-    public async Task<IActionResult> GetById(Guid id){
+    public async Task<IActionResult> GetById([FromRoute] Guid id){
         GetByIdBrandResponse response = await Mediator.Send(new GetByIdBrandQuery { Id = id });
         return Ok(response);
     }
@@ -32,6 +34,12 @@ public class BrandsController : BaseController
     [HttpPut]
     public async Task<IActionResult> Update([FromBody] UpdateBrandCommand updateBrandCommand){
         UpdatedBrandResponse response = await Mediator.Send(updateBrandCommand);
+        return Ok(response);
+    }
+
+    [HttpDelete("{id}")]
+    public async Task<IActionResult> Delete([FromRoute] Guid id){
+        DeletedBrandResponse response = await Mediator.Send(new DeleteBrandCommand { Id = id });
         return Ok(response);
     }
 }

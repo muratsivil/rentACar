@@ -5,6 +5,7 @@ namespace Domain.Entites;
 public class Brand : Entity<Guid>
 {
     public string Name { get; set; }   
+    public string Status { get; set; }
 
     public Brand()
     {

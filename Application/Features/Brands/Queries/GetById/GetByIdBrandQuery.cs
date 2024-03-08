@@ -3,7 +3,7 @@ using AutoMapper;
 using Domain.Entites;
 using MediatR;
 
-namespace Application.Features.Brands.Queries;
+namespace Application.Features.Brands.Queries.GetById;
 
 public class GetByIdBrandQuery : IRequest<GetByIdBrandResponse>
 {
